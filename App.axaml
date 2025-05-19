@@ -2,6 +2,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              x:Class="CAAP.App"
              xmlns:local="using:CAAP"
+             xmlns:semi="https://irihi.tech/semi"
+             xmlns:iconPacks="https://github.com/MahApps/IconPacks.Avalonia"
              RequestedThemeVariant="Default">
              <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 
@@ -10,6 +12,11 @@
     </Application.DataTemplates>
   
     <Application.Styles>
-        <FluentTheme />
+        
+        <semi:SemiTheme Locale="en-US" />
+
+        <!-- Icons -->
+        <StyleInclude Source="avares://IconPacks.Avalonia/Icons.axaml" />
+        <StyleInclude Source="avares://CAAP/Styles/IconPacksStyles.axaml" />
     </Application.Styles>
 </Application>

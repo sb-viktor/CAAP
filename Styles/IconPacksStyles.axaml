@@ -1,0 +1,232 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:iconPacks="https://github.com/MahApps/IconPacks.Avalonia">
+    <Style Selector="iconPacks|PackIconLucide">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconMaterial">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconBootstrapIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconBoxIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconCircumIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconCodicons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconCoolicons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconEntypo">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconEvaIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconFeatherIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconFileIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconFontaudio">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconFontAwesome">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconFontisto">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconForkAwesome">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconGameIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconIonicons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconJamIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconLucide">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconMaterial">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconMaterialLight">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconMaterialDesign">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconMemoryIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconMicrons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconModern">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconOcticons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconPhosphorIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconPicolIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconPixelartIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconRadixIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconRemixIcon">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconRPGAwesome">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconSimpleIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconTypicons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconUnicons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconVaadinIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconWeatherIcons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style Selector="iconPacks|PackIconZondicons">
+        <Setter Property="Width" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="Height" Value="{StaticResource SemiWidthIconMedium}" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+</Styles>
