@@ -47,7 +47,12 @@
             <Button Content="b" />
         </StackPanel>
 
-        <Slider Margin="20" VerticalAlignment="Center" />
+        <StackPanel Spacing="50" Margin="20" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+            <TextBlock TextAlignment="Center" Text="PIZZZZDA" />
+            
+            <Slider VerticalAlignment="Center" />
+        </StackPanel>
+
     </DockPanel>
 
 </Window>
