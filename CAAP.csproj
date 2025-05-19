@@ -24,5 +24,7 @@
       <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
     </PackageReference>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
+    <PackageReference Include="IconPacks.Avalonia" Version="1.0.0" />
+    <PackageReference Include="Semi.Avalonia" Version="11.2.1.7" />
   </ItemGroup>
 </Project>
