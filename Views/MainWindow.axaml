@@ -34,7 +34,7 @@
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="File">
-                <MenuItem Header="Open File" />
+                <MenuItem Header="Open File" Command="{Binding OpenFileCommand}" />
                 <Separator />
                 <MenuItem Header="Exit" />
             </MenuItem>
