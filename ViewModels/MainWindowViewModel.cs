@@ -24,6 +24,29 @@ public partial class MainWindowViewModel : ViewModelBase
         await ProcessFile(file, token);
     }
 
+    [RelayCommand]
+    private void Pause()
+    {
+        _mediaPlayer?.Pause();
+    }
+
+    [RelayCommand]
+    private void Stop()
+    {
+        _mediaPlayer?.Stop();
+    }
+
+    [RelayCommand]
+    private void PlayPause()
+    {
+        if (_mediaPlayer == null)
+            return;
+        if (_mediaPlayer.IsPlaying)
+            _mediaPlayer.Pause();
+        else
+            _mediaPlayer.Play();
+    }
+
     private async Task ProcessFile(IStorageFile file, CancellationToken token)
     {
         // Get the file temporary path

@@ -34,7 +34,7 @@
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="File">
-                <MenuItem Header="Open File" Command="{Binding OpenFileCommand}" />
+                <MenuItem Command="{Binding OpenFileCommand}" Header="Open File" />
                 <Separator />
                 <MenuItem Header="Exit" />
             </MenuItem>
@@ -52,7 +52,10 @@
                 <iconPacks:PackIconVaadinIcons Kind="CaretLeft" />
             </Button>
 
-            <Button Classes="Primary" Theme="{DynamicResource SolidButton}">
+            <Button
+                Classes="Primary"
+                Command="{Binding PlayPauseCommand}"
+                Theme="{DynamicResource SolidButton}">
                 <iconPacks:PackIconModern Kind="ControlPause" />
             </Button>
 
