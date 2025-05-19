@@ -3,6 +3,7 @@
     xmlns="https://github.com/avaloniaui"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:iconPacks="https://github.com/MahApps/IconPacks.Avalonia"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:vm="using:CAAP.ViewModels"
     Title="CAAP"
@@ -23,6 +24,13 @@
         <vm:MainWindowViewModel />
     </Design.DataContext>
 
+    <Window.Styles>
+        <Style Selector="Button">
+            <Setter Property="Width" Value="40" />
+            <Setter Property="Height" Value="40" />
+        </Style>
+    </Window.Styles>
+
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="File">
@@ -40,16 +48,26 @@
             Orientation="Horizontal"
             Spacing="20">
 
-            <Button Content="d" />
+            <Button Classes="Tertiary" Theme="{DynamicResource OutlineButton}">
+                <iconPacks:PackIconVaadinIcons Kind="CaretLeft" />
+            </Button>
 
-            <Button Content="ii" />
+            <Button Classes="Primary" Theme="{DynamicResource SolidButton}">
+                <iconPacks:PackIconModern Kind="ControlPause" />
+            </Button>
 
-            <Button Content="b" />
+            <Button Classes="Tertiary" Theme="{DynamicResource OutlineButton}">
+                <iconPacks:PackIconVaadinIcons Kind="CaretRight" />
+            </Button>
         </StackPanel>
 
-        <StackPanel Spacing="50" Margin="20" HorizontalAlignment="Stretch" VerticalAlignment="Center">
-            <TextBlock TextAlignment="Center" Text="PIZZZZDA" />
-            
+        <StackPanel
+            Margin="20"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Center"
+            Spacing="50">
+            <TextBlock Text="PIZZZZDA" TextAlignment="Center" />
+
             <Slider VerticalAlignment="Center" />
         </StackPanel>
 
