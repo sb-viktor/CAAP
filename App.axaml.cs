@@ -2,13 +2,27 @@
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Data.Core.Plugins;
 using Avalonia.Markup.Xaml;
+using CAAP.Services;
 using CAAP.ViewModels;
 using CAAP.Views;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace CAAP;
 
 public partial class App : Application
 {
+    /// <summary>
+    /// The current application instance.
+    /// This property is used to access the application instance from anywhere in the code.
+    /// </summary>
+    public new static App? Current => Application.Current as App;
+
+    /// <summary>
+    /// The service provider for dependency injection.
+    /// This property is used to access the service provider from anywhere in the code.
+    /// It is set in the App.xaml.cs file when the application is initialized.
+    /// </summary>
+    public ServiceProvider? Services { get; private set; }
     public override void Initialize()
     {
         AvaloniaXamlLoader.Load(this);
@@ -25,9 +39,18 @@ public partial class App : Application
             {
                 DataContext = new MainWindowViewModel(),
             };
+
+            SetupServices(desktop);
         }
 
         base.OnFrameworkInitializationCompleted();
+    }
+
+    private void SetupServices(IClassicDesktopStyleApplicationLifetime desktop)
+    {
+        Services = new ServiceCollection()
+            .AddSingleton<IFilesService>(x => new FilesService(desktop.MainWindow!))
+            .BuildServiceProvider();
     }
 
     private void DisableAvaloniaDataAnnotationValidation()
