@@ -3,8 +3,9 @@ using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Data.Core.Plugins;
 using Avalonia.Markup.Xaml;
 using CAAP.Services;
+using CAAP.Services.Interfaces;
 using CAAP.ViewModels;
-using CAAP.Views;
+using CAAP.Views.Windows;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CAAP;

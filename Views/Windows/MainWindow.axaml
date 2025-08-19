@@ -1,0 +1,54 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:ip="https://github.com/MahApps/IconPacks.Avalonia"
+        xmlns:vm="using:CAAP.ViewModels"
+        mc:Ignorable="d" d:DesignHeight="350" d:DesignWidth="650"
+        x:Class="CAAP.Views.Windows.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico" Title="CAAP"
+        Width="650" Height="350"
+        CanResize="False">
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Command="{Binding OpenFileCommand}" Header="Open File" />
+                <Separator />
+                <MenuItem Header="Exit" />
+            </MenuItem>
+        </Menu>
+
+        <StackPanel Margin="20" HorizontalAlignment="Center"
+                    VerticalAlignment="Bottom"
+                    DockPanel.Dock="Bottom" Orientation="Horizontal"
+                    Spacing="20">
+            <StackPanel.Styles>
+                <Style Selector="Button">
+                    <Setter Property="Width" Value="40" />
+                    <Setter Property="Height" Value="40" />
+                </Style>
+            </StackPanel.Styles>
+
+            <Button Classes="Tertiary" Content="{ip:VaadinIcons CaretLeft}" Theme="{DynamicResource OutlineButton}" />
+
+            <Button Classes="Primary"
+                    Command="{Binding PlayPauseCommand}"
+                    Content="{ip:Modern ControlPause}"
+                    Theme="{DynamicResource SolidButton}" />
+
+            <Button Classes="Tertiary" Content="{ip:VaadinIcons CaretRight}" Theme="{DynamicResource OutlineButton}" />
+        </StackPanel>
+
+        <StackPanel Margin="20" HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center"
+                    Spacing="50">
+            <TextBlock Text="PIZZZZDA" TextAlignment="Center" />
+
+            <Slider VerticalAlignment="Center" />
+        </StackPanel>
+
+    </DockPanel>
+
+</Window>
