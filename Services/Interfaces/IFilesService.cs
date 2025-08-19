@@ -1,6 +1,6 @@
 using Avalonia.Platform.Storage;
 
-namespace CAAP.Services;
+namespace CAAP.Services.Interfaces;
 
 public interface IFilesService
 {

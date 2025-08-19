@@ -1,9 +1,9 @@
-﻿using Avalonia.Platform.Storage;
-using CAAP.Services;
+using Avalonia.Platform.Storage;
+using CAAP.Services.Interfaces;
+using CAAP.ViewModels.Base;
 using CommunityToolkit.Mvvm.Input;
-using Microsoft.Extensions.DependencyInjection;
 using LibVLCSharp.Shared;
-using System.IO;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace CAAP.ViewModels;
 
