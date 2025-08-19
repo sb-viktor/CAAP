@@ -1,4 +1,4 @@
-﻿using Avalonia.Platform.Storage;
+using Avalonia.Platform.Storage;
 using CAAP.Services.Interfaces;
 using CAAP.ViewModels.Base;
 using CommunityToolkit.Mvvm.Input;
